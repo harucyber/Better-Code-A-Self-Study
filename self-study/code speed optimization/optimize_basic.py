@@ -1,9 +1,11 @@
 # With Basic Optimizations:
-# Data: 3192 Calculations (15 Terms) (-15 calculations)
+# Data: 48315632 Calculations (35 Terms) (-35 Calculations)
 # Code: 12 Lines (without counters) (-11 lines)
+# Time: 4.3868 Seconds (-5.4527sec)
+import time
+start = time.time()
 
-
-nterms = 15
+nterms = 35
 counter = 0
 
 def recur_fibo(n):
@@ -21,3 +23,5 @@ for i in range(nterms):
     recurfibo += (str(recur_fibo(i)) + ", ")
 print(recurfibo)
 print(f"Calculations: {counter}")
+end = time.time()
+print('Time taken for program: ', end - start)
