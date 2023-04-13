@@ -1,6 +1,7 @@
 # Code Simplification
 | Base | Abstraction |
-| ```# Base Code
+
+```# Base Code
 # 15 Lines of Code (3-18)
 
 location = "self-study/code simplification/assets"
@@ -21,7 +22,8 @@ print('Time taken for program: ', end - start)
 
 # Developer Tool: 
 # os.remove(location)```
-| ```# Base Code
+
+```# Base Code
 # 12 Lines of Code (3-15)
 import os
 import time
