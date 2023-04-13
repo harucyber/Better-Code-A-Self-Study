@@ -21,7 +21,8 @@ end = time.time()
 print('Time taken for program: ', end - start)
 
 # Developer Tool: 
-# os.remove(location)```
+# os.remove(location)
+```
 
 ```# Base Code
 # 12 Lines of Code (3-15)
