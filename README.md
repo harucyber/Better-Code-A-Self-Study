@@ -2,6 +2,7 @@
 A few general optimization and techniques to make my code better.
 
 ## Study 1: [Code Speed Optimization](https://github.com/RinSoftwareDeveloper/Better-Code-A-Self-Study/tree/main/self-study/code%20speed%20optimization)
+The purpose of this is to see how fast could I generate the fibinachi sequece, trying to improve how fast I could generate it in python using different methods.
 | Version | Calculations (35 Terms) | Lines of Code | Computing Time |
 | --- | --- | --- | --- |
 | Base | 48,315,667 Eval | 23 Lines | 9.8842 Sec |
